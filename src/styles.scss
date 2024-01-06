@@ -1,11 +1,11 @@
 
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@500;600;700&display=swap');
-//@import 'variaveis.scss';
+@import 'variaveis';
 
 html, body {
   margin: 0;
   padding: 0;
-  // background-color: $cor-fundo;
+  background-color: $cor-fundo;
 }
 
 * {
@@ -13,45 +13,45 @@ html, body {
   box-sizing: border-box;
 }
 
-// .flex {
-//   display: flex;
+.flex {
+  display: flex;
 
-//   &-center {
-//     justify-content: center;
-//     align-items: center;
-//   }
-// }
+  &-center {
+    justify-content: center;
+    align-items: center;
+  }
+}
 
-// .titulo {
-//   color: $cor-primaria;
-//   display: block;
-//   font-weight: 700;
+.titulo {
+  color: $cor-primaria;
+  display: block;
+  font-weight: 700;
 
-//   &-bg{
-//     @extend .titulo;
-//     font-size: 2.2rem;
-//   }
+  &-bg{
+    @extend .titulo;
+    font-size: 2.2rem;
+  }
 
-//   &-md {
-//     @extend .titulo;
-//     font-size: 1.4rem;
-//   }
-// }
+  &-md {
+    @extend .titulo;
+    font-size: 1.4rem;
+  }
+}
 
-// .mt{
-//   @for $i from 1 to 10 {
-//     &-#{ $i } {
-//       margin-top: #{ $i }vh;
-//     }
-//   }
-// }
+.mt{
+  @for $i from 1 to 10 {
+    &-#{ $i } {
+      margin-top: #{ $i }vh;
+    }
+  }
+}
 
-// .p-20 {
-//   padding: 20px;
-// }
+.p-20 {
+  padding: 20px;
+}
 
-// .card {
-//   box-shadow: 0px 0px 15px $preto-transparent-03;
-//   background-color: $branco;
-//   border-radius: 10px;
-// }
+.card {
+  box-shadow: 0px 0px 15px $preto-transparent-03;
+  background-color: $branco;
+  border-radius: 10px;
+}
