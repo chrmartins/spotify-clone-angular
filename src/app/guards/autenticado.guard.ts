@@ -1,6 +1,6 @@
 import { inject } from '@angular/core';
 import { Router, type CanActivateChildFn } from '@angular/router';
-import { SpotifyService } from '../pages/services/spotifyService';
+import { SpotifyService } from '../pages/services/spotify.service';
 
 
 export const autenticadoGuard: CanActivateChildFn = () => {

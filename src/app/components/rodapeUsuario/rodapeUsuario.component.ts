@@ -1,7 +1,7 @@
 import { Component, OnInit } from '@angular/core';
 import { faSignOut } from '@fortawesome/free-solid-svg-icons';
 import { IUsuario } from '../../interfaces/IUsuario';
-import { SpotifyService } from '../../pages/services/spotifyService';
+import { SpotifyService } from '../../pages/services/spotify.service';
 
 @Component({
   selector: 'app-rodapeUsuario',
